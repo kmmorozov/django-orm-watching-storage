@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd4ce7b7-8d8d-4efe-a799-fb7c50e6ffda" name="Changes" comment="Добработал скрипты" />
+    <list default="true" id="cd4ce7b7-8d8d-4efe-a799-fb7c50e6ffda" name="Changes" comment="Добработал скрипты">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datacenter/active_passcards_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/datacenter/active_passcards_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datacenter/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/datacenter/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datacenter/passcard_info_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/datacenter/passcard_info_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datacenter/storage_information_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/datacenter/storage_information_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

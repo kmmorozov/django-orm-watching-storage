@@ -8,6 +8,7 @@ from django.utils.timezone import localtime
 from django.shortcuts import get_list_or_404
 from django.shortcuts import get_object_or_404
 
+
 def passcard_info_view(request, passcode):
     passcard = Passcard.objects.all()[0]
     onwer_name = get_object_or_404(Passcard, passcode=passcode)
@@ -22,10 +23,10 @@ def passcard_info_view(request, passcode):
         formated_duration = format_duration(duration)
         this_passcard_visits.append(
             {
-            'entered_at': '{}'.format(entered_at),
-            'duration': '{}'.format(formated_duration),
-            'is_strange': '{}'.format(long_visit)
-        }
+                'entered_at': '{}'.format(entered_at),
+                'duration': '{}'.format(formated_duration),
+                'is_strange': '{}'.format(long_visit)
+            }
         )
     context = {
         'passcard': passcard,
