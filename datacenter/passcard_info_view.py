@@ -17,7 +17,7 @@ def passcard_info_view(request, passcode):
     for visit in visit_from_passcard:
         entered_date = localtime(visit.entered_at).date()
         entered_time = localtime(visit.entered_at).time()
-        entered_at = f'дата: {entered_date}   время: {entered_time}'
+        entered_at = 'дата: {}   время: {}'.format(entered_date,entered_time)
         long_visit = is_visit_long(visit)
         duration = get_duration(visit)
         formated_duration = format_duration(duration)
