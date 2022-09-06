@@ -7,7 +7,7 @@ from django.utils.timezone import localtime
 
 def storage_information_view(request):
     non_closed_visits = []
-    not_end_visit = Visit.objects.filter(leaved_at=None)
+    not_end_visit = Visit.objects.filter(leaved_at__isnull=True)
     for visit in not_end_visit:
         duration = get_duration(visit)
         formatted_duration = format_duration(duration)
