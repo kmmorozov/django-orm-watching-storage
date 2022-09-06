@@ -3,7 +3,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.poetry.lock
 # C extensions
 *.so
 
@@ -11,6 +11,7 @@ __pycache__/
 .Python
 /.idea
 build/
+pycache/
 develop-eggs/
 dist/
 downloads/
