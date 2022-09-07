@@ -12,9 +12,9 @@ from django.shortcuts import get_object_or_404
 def passcard_info_view(request, passcode):
     passcard = Passcard.objects.all()
     onwer_name = get_object_or_404(Passcard, passcode=passcode)
-    visit_from_passcard = get_list_or_404(Visit, passcard=onwer_name)
+    visits_from_passcard = get_list_or_404(Visit, passcard=onwer_name)
     this_passcard_visits = []
-    for visit in visit_from_passcard:
+    for visit in visits_from_passcard:
         entered_date = localtime(visit.entered_at).date()
         entered_time = localtime(visit.entered_at).time()
         entered_at = 'дата: {}   время: {}'.format(entered_date,entered_time)
